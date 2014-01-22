@@ -1,0 +1,8 @@
+Usage:
+
+# in LocalSettings.php,
+require_once 'extensions/AutoloaderPerfTesting/AutoloaderPerfTesting.php';
+
+# from the shell,
+php extensions/AutoloaderPerfTesting/maintenance/generateTestClasses.php
+php extensions/AutoloaderPerfTesting/maintenance/runProfiling.php
